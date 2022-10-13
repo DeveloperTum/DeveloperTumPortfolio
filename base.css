@@ -1,0 +1,133 @@
+/* styling the body color and alignment*/
+
+body
+{
+    text-align: center;
+    background-color: lightseagreen;
+
+}
+
+/*styling the h2 header*/
+h2
+{
+color: black;
+margin: 40px 0px;
+font-family: 'Franklin Gothic Medium';
+}
+
+
+/*styling the unordereder list*/
+ul
+{
+list-style-type: none;
+margin: 80px 100px;
+padding: none;
+overflow: hidden;
+background-color: #333;
+border-radius: 15px;
+
+}
+
+li
+{
+float: left;
+}
+
+li a
+{
+text-decoration: none;
+color: green;
+font-family: cursive;
+display: block;
+padding: 20px 50px;
+
+}
+
+ li a:hover 
+ {
+        background-color: #555;
+    }
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+  
+}
+
+.html-css {
+    background-image: url('./img/html-css.png');
+}
+
+.html-php-mysql {
+    background-image: url('./img/php.jpg');
+}
+
+
+
+.wordpress {
+    background-image: url('./img/wordpress.png');
+}
+.myskills{
+    background-image: url('./img/skill.png');
+}
+
+
+
+.card a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+.links a
+{
+
+justify-content: center;
+margin-top: 100px;
+padding:10px;
+text-decoration: none;
+
+
+}
+
+
+.contacts a
+{
+    text-decoration: none;
+}
+
+
+
